@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Praktika10</string>
+    <string name="tw1">Содержимое TextView</string>
+    <string name="button">Кнопка</string>
+    <string name="menu1">Открыть</string>
+    <string name="menu2">Сохранить</string>
+    <string name="menu3">Выйти</string>
+    <string name="submenu1">Подменю 1</string>
+    <string name="smenu2">Подпункт 2</string>
+    <string name="smenu1">Подпункт 1</string>
+</resources>

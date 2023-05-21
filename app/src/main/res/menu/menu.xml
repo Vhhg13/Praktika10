@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu1"
+        android:orderInCategory="1"
+        android:title="@string/menu1"/>
+
+    <item
+        android:id="@+id/menu2"
+        android:orderInCategory="2"
+        android:title="@string/menu2"/>
+
+    <item
+        android:id="@+id/submenu1"
+        android:orderInCategory="3"
+        android:title="@string/submenu1">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/smenu1"
+                    android:orderInCategory="1"
+                    android:title="@string/smenu1"/>
+                <item
+                    android:id="@+id/smenu2"
+                    android:checked="true"
+                    android:orderInCategory="2"
+                    android:title="@string/smenu2"/>
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu3"
+        android:orderInCategory="4"
+        android:title="@string/menu3"/>
+</menu>
